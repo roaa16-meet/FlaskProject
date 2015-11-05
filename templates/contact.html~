@@ -1,0 +1,26 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+	<title> Contact me</title>
+
+</head>
+<body>
+	<div id="menu">
+	<ul>
+			<li><a href="{{url_for('homepage')}}">Home</a></li>
+			<li><a href="{{url_for('about')}}">About me</a></li>
+			<li><a href="{{url_for('contact')}}"> Contant Me</a></li>
+			
+	</ul>
+	</div>
+	
+	<div id="c">
+		<p> Heres my email : roaakh12@gmail.com</p>
+		<a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#identifier"> You can contact me here </a>
+		
+
+</body>
+
+
+
+</html>
